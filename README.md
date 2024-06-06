@@ -10,7 +10,7 @@
 
 https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing
 
-[![Watch the video](https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing.jpg)]
+![Watch the video](https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing.jpg)
 
 
 
