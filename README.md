@@ -8,14 +8,10 @@
 - Warehouse management system:  inventory control, order fulfillment, and warehouse logistics
 
 
-https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing
-
-https://drive.google.com/thumbnail?id=1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8
 
 
 [![Video Thumbnail](https://github.com/MMpan168/mpanmall-vue/blob/main/demo/01.png)](https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing)
 
 
-![video1](https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing)
-
+[![Video Thumbnail](https://github.com/MMpan168/mpanmall-vue/blob/main/demo/02.png)](https://drive.google.com/file/d/1jA7TdifZb8v6vWHTYuWcB3cuJit49Xz6/view?usp=sharing)
 
