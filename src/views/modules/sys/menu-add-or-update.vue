@@ -1,6 +1,6 @@
 <template>
   <el-dialog
-    :title="!dataForm.id ? 'Add' : '修改'"
+    :title="!dataForm.id ? 'Add' : 'Update'"
     :close-on-click-modal="false"
     :visible.sync="visible">
     <el-form :model="dataForm" :rules="dataRule" ref="dataForm" @keyup.enter.native="dataFormSubmit()" label-width="80px">
@@ -33,11 +33,11 @@
       <el-form-item v-if="dataForm.type === 1" label="Routing" prop="url">
         <el-input v-model="dataForm.url" placeholder="Routing"></el-input>
       </el-form-item>
-      <el-form-item v-if="dataForm.type !== 0" label="授权标识" prop="perms">
-        <el-input v-model="dataForm.perms" placeholder="多个用逗号分隔, 如: user:list,user:create"></el-input>
+      <el-form-item v-if="dataForm.type !== 0" label="Auth" prop="perms">
+        <el-input v-model="dataForm.perms" placeholder="separated by commas: user:list,user:create"></el-input>
       </el-form-item>
       <el-form-item v-if="dataForm.type !== 2" label="Order" prop="orderNum">
-        <el-input-number v-model="dataForm.orderNum" controls-position="right" :min="0" label="排序号"></el-input-number>
+        <el-input-number v-model="dataForm.orderNum" controls-position="right" :min="0" label="Order"></el-input-number>
       </el-form-item>
       <el-form-item v-if="dataForm.type !== 2" label="Icon" prop="icon">
         <el-row>
@@ -197,7 +197,7 @@
             }).then(({data}) => {
               if (data && data.code === 0) {
                 this.$message({
-                  message: '操作成功',
+                  message: 'Success',
                   type: 'success',
                   duration: 1500,
                   onClose: () => {
