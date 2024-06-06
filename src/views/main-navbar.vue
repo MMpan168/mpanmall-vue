@@ -2,8 +2,8 @@
   <nav class="site-navbar" :class="'site-navbar--' + navbarLayoutType">
     <div class="site-navbar__header">
       <h1 class="site-navbar__brand" @click="$router.push({ name: 'home' })">
-        <a class="site-navbar__brand-lg" href="javascript:;">Mpan Mall</a>
-        <a class="site-navbar__brand-mini" href="javascript:;">人人</a>
+        <a class="site-navbar__brand-lg" href="javascript:;">MPan Mall</a>
+        <a class="site-navbar__brand-mini" href="javascript:;">MPan Mall</a>
       </h1>
     </div>
     <div class="site-navbar__body clearfix">
@@ -26,14 +26,13 @@
         </el-menu-item>
         <el-menu-item index="2">
           <el-badge value="hot">
-            <a href="https://www.renren.io/" target="_blank">Community</a>
+            <a href="https://github.com/MMpan168" target="_blank">Community</a>
           </el-badge>
         </el-menu-item>
         <el-submenu index="3">
-          <template slot="title">Git源码</template>
-          <el-menu-item index="2-1"><a href="https://github.com/renrenio/renren-fast-vue" target="_blank">前端</a></el-menu-item>
-          <el-menu-item index="2-2"><a href="https://gitee.com/renrenio/renren-fast" target="_blank">后台</a></el-menu-item>
-          <el-menu-item index="2-3"><a href="https://gitee.com/renrenio/renren-generator" target="_blank">代码生成器</a></el-menu-item>
+          <template slot="title">Source Code</template>
+          <el-menu-item index="2-1"><a href="https://github.com/MMpan168/mpanmall-vue" target="_blank">Front End</a></el-menu-item>
+          <el-menu-item index="2-2"><a href="https://github.com/MMpan168/mpanmall" target="_blank">Back End</a></el-menu-item>
         </el-submenu>
         <el-menu-item class="site-navbar__avatar" index="3">
           <el-dropdown :show-timeout="0" placement="bottom">
@@ -91,9 +90,9 @@
       },
       // 退出
       logoutHandle () {
-        this.$confirm(`确定进行[退出]操作?`, '提示', {
-          confirmButtonText: '确定',
-          cancelButtonText: '取消',
+        this.$confirm(`Are you sure want to logout?`, 'Attention', {
+          confirmButtonText: 'Ok',
+          cancelButtonText: 'Cancel',
           type: 'warning'
         }).then(() => {
           this.$http({

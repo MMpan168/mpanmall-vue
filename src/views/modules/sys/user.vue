@@ -163,9 +163,9 @@
         var userIds = id ? [id] : this.dataListSelections.map(item => {
           return item.userId
         })
-        this.$confirm(`确定对[id=${userIds.join(',')}]进行[${id ? '删除' : '批量删除'}]操作?`, '提示', {
-          confirmButtonText: '确定',
-          cancelButtonText: '取消',
+        this.$confirm(`Are you sure want to [${id ? 'delete' : 'batch delete'}] [id=${userIds.join(',')}]?`, 'Attention', {
+          confirmButtonText: 'Ok',
+          cancelButtonText: 'Cancel',
           type: 'warning'
         }).then(() => {
           this.$http({
@@ -175,7 +175,7 @@
           }).then(({data}) => {
             if (data && data.code === 0) {
               this.$message({
-                message: '操作成功',
+                message: 'Success',
                 type: 'success',
                 duration: 1500,
                 onClose: () => {

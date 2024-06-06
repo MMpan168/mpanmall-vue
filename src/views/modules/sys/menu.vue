@@ -47,7 +47,7 @@
         prop="orderNum"
         header-align="center"
         align="center"
-        label="排序号">
+        label="Order">
       </el-table-column>
       <el-table-column
         prop="url"
