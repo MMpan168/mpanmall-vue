@@ -8,8 +8,8 @@
 - Warehouse management system:  inventory control, order fulfillment, and warehouse logistics
 
 
-
-[![Watch the video](https://youtu.be/4Wo-EwWXcMA/0.jpg)](https://youtu.be/4Wo-EwWXcMA)
+https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing
+[![Watch the video](https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing)]
 
 
 
