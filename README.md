@@ -10,8 +10,4 @@
 
 
 
-[![Video Thumbnail](https://github.com/MMpan168/mpanmall-vue/blob/main/demo/01.png)](https://drive.google.com/file/d/1ZZgPL9DyThMcKMwohBQg64XfcNqoJHG8/view?usp=sharing)
-
-
-[![Video Thumbnail](https://github.com/MMpan168/mpanmall-vue/blob/main/demo/02.png)](https://drive.google.com/file/d/1jA7TdifZb8v6vWHTYuWcB3cuJit49Xz6/view?usp=sharing)
-
+[![Video Thumbnail](https://github.com/MMpan168/mpanmall-vue/blob/main/demo/01.png)](https://drive.google.com/file/d/1m57-V42DMohHsnLjRvKxSKxd1av6FpXU/view?usp=sharing)
